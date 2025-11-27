@@ -1,7 +1,7 @@
 import { Users, Globe, HeartHandshake } from "lucide-react";
-import DealCard from '@/app/components/DealCard';
-import DestinationGrid from '@/app/components/DestinationGrid';
-import ReasonsSection from '@/app/components/ReasonsSection';
+import DealCard from './components/DealCard';
+import DestinationGrid from './components/DestinationGrid';
+import ReasonsSection from './components/ReasonsSection';
 export default async function Home() {
   const dealsRes = await fetch('https://landingui-a80hzat8v-rimjhim1509s-projects.vercel.app/api/deals', {
   cache: 'no-store'
