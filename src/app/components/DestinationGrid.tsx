@@ -1,5 +1,5 @@
 export default async function DestinationGrid() {
-  const res = await fetch('http://localhost:3000/api/destinations', { cache: 'no-store' });
+  const res = await fetch('/api/destinations', { cache: 'no-store' });
   const destinations = await res.json();
 
   return (
