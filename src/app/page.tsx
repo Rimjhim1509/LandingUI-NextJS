@@ -3,10 +3,9 @@ import DealCard from '@/app/components/DealCard';
 import DestinationGrid from '@/app/components/DestinationGrid';
 import ReasonsSection from '@/app/components/ReasonsSection';
 export default async function Home() {
-  const dealsRes = await fetch('http://localhost:3000/api/deals', { 
-    cache: 'no-store',
-    next: { revalidate: 0 }
-  });
+  const dealsRes = await fetch('/api/deals', { 
+  cache: 'no-store'
+});
   const deals = await dealsRes.json();
 
   return (
