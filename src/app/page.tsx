@@ -3,9 +3,10 @@ import DealCard from '@/app/components/DealCard';
 import DestinationGrid from '@/app/components/DestinationGrid';
 import ReasonsSection from '@/app/components/ReasonsSection';
 export default async function Home() {
-  const dealsRes = await fetch('/api/deals', { 
-  cache: 'no-store'
-});
+  const dealsRes = await fetch(
+    `${process.env.NEXT_PUBLIC_BASE_URL || ''}/api/deals`,
+    { cache: 'no-store' }
+  );
   const deals = await dealsRes.json();
 
   return (
