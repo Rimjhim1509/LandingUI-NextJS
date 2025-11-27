@@ -11,7 +11,7 @@ const deals = [
     oldPrice: 17999,
     newPrice: 8259,
     date: "Dec 01, 2025",
-    image: "./deals/antarctica.jpg"
+    image: "/deals/antarctica.jpg"
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const deals = [
     oldPrice: 3400,
     newPrice: 2570,
     date: "Apr 18, 2026",
-    image: "./destinations/peru.jpg"
+    image: "/destinations/peru.jpg"
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const deals = [
     oldPrice: 5400,
     newPrice: 4284,
     date: "Dec 08, 2025",
-    image: "./deals/pexels-pixabay-48814.jpg"
+    image: "/deals/pexels-pixabay-48814.jpg"
   },
   {
     id: 4,
@@ -44,7 +44,7 @@ const deals = [
     oldPrice: 6899,
     newPrice: 4999,
     date: "May 01, 2026",
-    image: "./deals/pexels-leandrobez-31779045.jpg"
+    image: "/deals/pexels-leandrobez-31779045.jpg"
   },
   {
     id: 5,
@@ -52,10 +52,10 @@ const deals = [
     type: "CLASSIC",
     days: 15,
     route: "Cairo to Amman",
-    oldPrice: "$7899",
+    oldPrice: 7899,
     newPrice: 5499,
     date: "Nov 15, 2025",
-    image: "./destinations/egypt.jpg"
+    image: "/destinations/egypt.jpg"
   }
 ];
 
